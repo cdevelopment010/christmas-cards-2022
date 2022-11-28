@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "item" : {
+            "imgUrl": "/images/chad-madden.jpg",
+            "author": "Chad Madden",
+            "link": "https://unsplash.com/photos/SUTfFCAHV_A",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }
+            
+    },
+    {
+        "id": 2,
+        "item" : {
+            "imgUrl": "/images/annie-spratt.jpg",
+            "author": "Annie Spratt",
+            "link": "https://unsplash.com/photos/VDXtVYJVj7A",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }
+    },
+    {
+        "id": 3,
+        "item" : {
+            "imgUrl": "/images/mourad-saadi.jpg",
+            "author": "Mourad Saadi",
+            "link": "https://unsplash.com/photos/ZXbeOqF1NFQ",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 4,
+        "item" : {
+            "imgUrl": "/images/mariana-rascao.jpg",
+            "author": "Mariana Rascao",
+            "link": "https://unsplash.com/photos/S4GOLEDaKw4",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 5,
+        "item" : {
+            "imgUrl": "/images/todd-trapani.jpg",
+            "author": "Todd Trapani",
+            "link": "https://unsplash.com/photos/hlhpAWdFGTk",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 6,
+        "item" : {
+            "imgUrl": "/images/mohamed-hassan.jpg",
+            "author": "Mohamed Hassan",
+            "link": "https://pixabay.com/illustrations/snowing-christmas-santa-claus-cute-2974540/",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 7,
+        "item" : {
+            "imgUrl": "/images/kevin-sanderson.png",
+            "author": "Kevin Sanderson",
+            "link": "https://pixabay.com/vectors/card-cartoon-christmas-4623621/",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 8,
+        "item" : {
+            "imgUrl": "/images/andrew-te.jpg",
+            "author": "Andrew Te",
+            "link": "https://unsplash.com/photos/xUrw6CyuR7o",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 9,
+        "item" : {
+            "imgUrl": "/images/cameron-stewart.jpg",
+            "author": "Cameron Stewart",
+            "link": "https://unsplash.com/photos/ocq7NBmpOYU",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 10,
+        "item" : {
+            "imgUrl": "/images/krakenimages.jpg",
+            "author": "krakenimages",
+            "link": "https://unsplash.com/photos/liT5AlTmC8I",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 11,
+        "item" : {
+            "imgUrl": "/images/jamie-street.jpg",
+            "author": "Jamie Street",
+            "link": "https://unsplash.com/photos/G6aNLWPUlcY",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    },
+    {
+        "id": 12,
+        "item" : {
+            "imgUrl": "/images/aaron-wilson.jpg",
+            "author": "Aaron Wilson",
+            "link": "https://unsplash.com/photos/qIHtrP2V3C8",
+            "description": "",
+            "deal": true,
+            "popular": false
+        }    
+    }        
+]

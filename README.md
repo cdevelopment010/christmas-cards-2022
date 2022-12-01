@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Christmas code challenge 2022 - Christmas Cards
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## About the challenge
+
+Challenged myself to doing a project every week leading up to Christmas. This is the first challenge which is to build something related to Christmas cards - could be a website, CSS art, interactive card builder - anything! 
+
+I decided to go with a card selling site, built using react and react-router-dom. I didn't use a database but instead used a JSON file, and there are some features I wasn't going to build such as a checkout page with payment details. 
+
+There are a few nice to have features which I intend to build - personalise the text inside the card. It would also be nice to have search functionality. 
+
+
+
 
 ## Available Scripts
 

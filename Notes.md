@@ -1,29 +1,32 @@
 # Notes
 
-Tomorrow (01/12)
-- icons
-- local storage for basket
-- Maybe basket page...???? 
+Tomorrow (02/12)
+- Add empty basket message
+- Button effect for add to basket 
+- Search functionality working
+
 
 ## Questions/things to think about
 
 - Do I want to add a quanitity or just buy one? 
 - Personalise section would be good, but a nice to have. 
+- Search functionality... Could have a separate route /search/SearchTerm with the SearchTerm being what is typed in the textbox? 
+- No items in basket... error message
 
 
 ## To Do
 
 #### Nav
 
-- [ ] Search box (not going to add functionality)
-- [ ] Basket icon and count of in basket
+- [x] Search box (not going to add functionality)
+- [x] Basket icon and count of in basket
 - [x] display flex
 - [ ] Logo
 
 #### Home
 - [x] create cards for images
 - [ ] Don't think I will add a carosel 
-- [ ] Add cards to basket or go to item detail
+- [x] Add cards to basket or go to item detail
 - [x] Margin on the top of the cards
 - [x] Title
 
@@ -37,6 +40,6 @@ Tomorrow (01/12)
 - [x] Link to item detail or add to basket
 
 #### Basket
-- [ ] Show list of what is in the basket 
-- [ ] Show total price
-- [ ] 
+- [x] Show list of what is in the basket 
+- [x] Show total price
+- [ ] Nothing in your basket message

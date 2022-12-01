@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Nav from "./Components/Nav";
 import Home from "./Components/Home";
@@ -13,21 +13,35 @@ import './Styles/helper.css';
 import './Styles/index.css';
 import './Styles/nav.css';
 import './Styles/Card.css';
+import './Styles/BasketCard.css';
 import './Styles/mediaQuery.css';
 
 const App =  () => {
 
-  
+  const [basketCount, setBasketCount] = useState(0);
+  useEffect(()=> {
+    updateCount();
+  }, [])
+
+
+  const updateCount = () => {
+    let basket = JSON.parse(localStorage.getItem('christmas-code-challenge-2022-cards')) !== null ?
+            JSON.parse(localStorage.getItem('christmas-code-challenge-2022-cards'))
+            : []
+        ; 
+    setBasketCount(basket.length)
+  }
+
 
   return (
     <div>
       <Router>
-        <Nav />
+        <Nav basketCount = {basketCount}/>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/deals" element={<Deals />}/>
-          <Route path="/popular" element={<Popular />}/>
-          <Route path="/basket" element={<Basket />}/>
+          <Route path="/" element={<Home updateBasket = {updateCount}/>}/>
+          <Route path="/deals" element={<Deals updateBasket = {updateCount}/>}/>
+          <Route path="/popular" element={<Popular updateBasket = {updateCount}/>}/>
+          <Route path="/basket" element={<Basket updateBasket = {updateCount}/>}/>
           <Route path="/shop/:id" element={<ItemDetail />}/>
         </Routes>
       </Router>

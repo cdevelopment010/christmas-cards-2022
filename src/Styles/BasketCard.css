@@ -1,0 +1,18 @@
+
+.basket-card {
+    border: 1px solid rgb(149, 147, 147);
+    grid-template-columns: 250px 1fr;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.25);
+}
+
+.basket-card img {
+    height: 250px; 
+    width: 250px; 
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.trash {
+    cursor: pointer;
+}

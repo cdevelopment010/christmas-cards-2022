@@ -1,7 +1,12 @@
 
+.container {
+    max-width: 80vw;
+    margin-inline: auto;
+}
+
 .text-bold{font-weight: 700;}
 .text-center{text-align: center;}
-
+.text-col-1{color:var(--prim-col-1)}
 
 .d-flex{display:flex;}
 .flex-direction-column {flex-direction: column;}
@@ -24,8 +29,11 @@
 .align-items-center{align-items: center;}
 .justify-items-center{justify-items: center;}
 .justify-content-center{justify-content: center;}
+.justify-content-end{justify-content: end;}
 
 .justify-self-end{justify-self: end;}
+.justify-self-center{justify-self: center;}
+.align-self-end{align-self: end;}
 
 
 .col-span-2{grid-column: auto / span 2;}

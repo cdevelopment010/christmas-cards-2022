@@ -6,7 +6,7 @@
             "author": "Chad Madden",
             "link": "https://unsplash.com/photos/SUTfFCAHV_A",
             "title": "Card #1",
-            "description": "",
+            "desc": "",
             "deal": true,
             "popular": false,
             "price": 1.99
@@ -20,7 +20,7 @@
             "author": "Annie Spratt",
             "link": "https://unsplash.com/photos/VDXtVYJVj7A",
             "title": "Card #2",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": false,
             "price": 1.99
@@ -33,7 +33,7 @@
             "author": "Mourad Saadi",
             "link": "https://unsplash.com/photos/ZXbeOqF1NFQ",
             "title": "Card #3",
-            "description": "",
+            "desc": "",
             "deal": true,
             "popular": false,
             "price": 1.99
@@ -46,7 +46,7 @@
             "author": "Mariana Rascao",
             "link": "https://unsplash.com/photos/S4GOLEDaKw4",
             "title": "Card #4",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": true,
             "price": 1.99
@@ -59,7 +59,7 @@
             "author": "Todd Trapani",
             "link": "https://unsplash.com/photos/hlhpAWdFGTk",
             "title": "Card #5",
-            "description": "",
+            "desc": "",
             "deal": true,
             "popular": false,
             "price": 1.99
@@ -72,7 +72,7 @@
             "author": "Mohamed Hassan",
             "link": "https://pixabay.com/illustrations/snowing-christmas-santa-claus-cute-2974540/",
             "title": "Card #6",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": true,
             "price": 1.99
@@ -85,7 +85,7 @@
             "author": "Kevin Sanderson",
             "link": "https://pixabay.com/vectors/card-cartoon-christmas-4623621/",
             "title": "Card #7",
-            "description": "",
+            "desc": "",
             "deal": true,
             "popular": false,
             "price": 1.99
@@ -98,7 +98,7 @@
             "author": "Andrew Te",
             "link": "https://unsplash.com/photos/xUrw6CyuR7o",
             "title": "Card #8",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": true,
             "price": 1.99
@@ -111,7 +111,7 @@
             "author": "Cameron Stewart",
             "link": "https://unsplash.com/photos/ocq7NBmpOYU",
             "title": "Card #9",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": false,
             "price": 1.99
@@ -124,7 +124,7 @@
             "author": "krakenimages",
             "link": "https://unsplash.com/photos/liT5AlTmC8I",
             "title": "Card #10",
-            "description": "",
+            "desc": "This is a super amazing christmas card that your friends and family will love! ",
             "deal": false,
             "popular": false,
             "price": 1.99
@@ -137,7 +137,7 @@
             "author": "Jamie Street",
             "link": "https://unsplash.com/photos/G6aNLWPUlcY",
             "title": "Card #11",
-            "description": "",
+            "desc": "This is a super amazing christmas card that your friends and family will love!",
             "deal": false,
             "popular": false,
             "price": 1.99
@@ -150,7 +150,7 @@
             "author": "Aaron Wilson",
             "link": "https://unsplash.com/photos/qIHtrP2V3C8",
             "title": "Card #12",
-            "description": "",
+            "desc": "",
             "deal": false,
             "popular": false,
             "price": 1.99

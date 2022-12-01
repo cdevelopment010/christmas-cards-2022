@@ -1,5 +1,17 @@
-import { Link } from "react-router-dom";
-const Nav = () => {
+import { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+const Nav = ( { basketCount }) => {
+
+    let nav = useNavigate();
+    
+
+    useEffect(() => {
+        
+    }, [])
+
+    const goToBasket = () => {
+        nav('/basket')
+    }
 
     return (
         <nav>
@@ -14,7 +26,10 @@ const Nav = () => {
             </div>
             <div>
                 <input type="text" placeholder="search..." />
-
+                <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-basket-shopping basket" onClick={goToBasket}>
+                    <h5 className="basket-count text-center d-grid align-items-center justify-content-center">{basketCount}</h5>
+                </i>
             </div>
         </nav>
     )

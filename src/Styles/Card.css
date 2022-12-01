@@ -26,8 +26,8 @@
     /* transition: top 0.5s; */
 }
 .card:hover img {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
 }
 .card:hover .card-hover {
     /* display:flex;  */
@@ -42,7 +42,8 @@
     border-radius: 10px;
 }
 
-.card-container button {
+.card-hover>button, .card-hover a {
+    text-align: center;
     width: 80%;
     height: 30px; 
     border-radius: 10px;
@@ -53,12 +54,18 @@
     background-color: white;
 }
 
+.card-hover>a>button {
+    outline: none; 
+    border: none; 
+    background: transparent;
+}
+
 .card-container button a {
     text-decoration: none;
     color: inherit;
 }
 
-.card-container button:hover {
+.card-container>button:hover, .card-container a:hover {
     background: var(--prim-col-4);
     border: 1px solid transparent;
     color: white;

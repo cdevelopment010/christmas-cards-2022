@@ -27,7 +27,7 @@ const Card = ( { item, updateBasket }) => {
                 <div className="card-hover d-flex align-items-center justify-content-center flex-direction-column gap-25">
                     {/* <button type="button"><Link to={`/shop/${item.id}`}>View Detail</Link></button> */}
                     <Link to={`/shop/${item.id}`}><button type="button">View Detail</button></Link>
-                    <button type="button" onClick={addToBasket}>Add to basket</button>
+                    <button type="button" className="addToBasket" onClick={addToBasket}>Add to basket</button>
                 </div>
             </div>
             <div className="grid-col-2 d-grid grid-col-2-auto">

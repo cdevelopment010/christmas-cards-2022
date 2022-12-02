@@ -13,6 +13,11 @@ const Nav = ( { basketCount }) => {
         nav('/basket')
     }
 
+    const searchItem = ( e ) => {
+        console.log(e.target.value);
+        nav(`/search/${e.target.value}`)
+    }
+
     return (
         <nav>
             <div>
@@ -25,8 +30,11 @@ const Nav = ( { basketCount }) => {
                 </ul>
             </div>
             <div>
-                <input type="text" placeholder="search..." />
-                <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <div>
+                    
+                    <input type="text" id="search" name="search" placeholder="search..." onKeyUp={searchItem}/>
+                    <label htmlFor="search"><i className="fa-sharp fa-solid fa-magnifying-glass ml-3"></i></label>
+                </div>
                 <i className="fa-solid fa-basket-shopping basket" onClick={goToBasket}>
                     <h5 className="basket-count text-center d-grid align-items-center justify-content-center">{basketCount}</h5>
                 </i>

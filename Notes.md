@@ -1,7 +1,6 @@
 # Notes
 
 Tomorrow (02/12)
-- Add empty basket message
 - Button effect for add to basket 
 - Search functionality working
 

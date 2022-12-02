@@ -60,7 +60,17 @@ const Basket = ( {updateBasket} ) => {
                 title="This will delete all items in your basket"
                 onClick={deleteItems}
                 ></i>
+
+            {items.length === 0 &&
+            
+                    <div className="text-center">
+                        <h2 className="ff-poppins">Oh No! <br/><br/>  Looks like your basket is empty!</h2>
+                    </div>
+                
+            }
             {items.map((item, index)=> {
+
+                
                 return(
                     <div>
                         {/* {item.title} | {item.quantity} */}

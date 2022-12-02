@@ -4,6 +4,9 @@
     margin-inline: auto;
 }
 
+
+.ff-poppins {font-family: 'Poppins', sans-serif;}
+
 .text-bold{font-weight: 700;}
 .text-center{text-align: center;}
 .text-col-1{color:var(--prim-col-1)}

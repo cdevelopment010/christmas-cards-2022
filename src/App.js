@@ -6,6 +6,7 @@ import Deals from './Components/Deals';
 import Popular from './Components/Popular';
 import Basket from './Components/Basket';
 import ItemDetail from './Components/ItemDetail';
+import SearchDetail from './Components/SearchDetail';
 
 // CSS
 import './Styles/variables.css';
@@ -42,7 +43,8 @@ const App =  () => {
           <Route path="/deals" element={<Deals updateBasket = {updateCount}/>}/>
           <Route path="/popular" element={<Popular updateBasket = {updateCount}/>}/>
           <Route path="/basket" element={<Basket updateBasket = {updateCount}/>}/>
-          <Route path="/shop/:id" element={<ItemDetail />}/>
+          <Route path="/shop/:id" element={<ItemDetail updateBasket = {updateCount}/>}/>
+          <Route path="/search/:searchTerm" element={<SearchDetail updateBasket = {updateCount}/>}/>
         </Routes>
       </Router>
 

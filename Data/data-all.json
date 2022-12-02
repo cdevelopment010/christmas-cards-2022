@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "item" : {
+            "imgUrl": "/images/chad-madden.jpg",
+            "author": "Chad Madden",
+            "link": "https://unsplash.com/photos/SUTfFCAHV_A",
+            "title": "Card #1",
+            "desc": "",
+            "deal": true,
+            "popular": false,
+            "price": 1.99
+        }
+            
+    },
+    {
+        "id": 2,
+        "item" : {
+            "imgUrl": "/images/annie-spratt.jpg",
+            "author": "Annie Spratt",
+            "link": "https://unsplash.com/photos/VDXtVYJVj7A",
+            "title": "Card #2",
+            "desc": "",
+            "deal": false,
+            "popular": false,
+            "price": 1.99
+        }
+    },
+    {
+        "id": 3,
+        "item" : {
+            "imgUrl": "/images/mourad-saadi.jpg",
+            "author": "Mourad Saadi",
+            "link": "https://unsplash.com/photos/ZXbeOqF1NFQ",
+            "title": "Card #3",
+            "desc": "",
+            "deal": true,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 4,
+        "item" : {
+            "imgUrl": "/images/mariana-rascao.jpg",
+            "author": "Mariana Rascao",
+            "link": "https://unsplash.com/photos/S4GOLEDaKw4",
+            "title": "Card #4",
+            "desc": "",
+            "deal": false,
+            "popular": true,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 5,
+        "item" : {
+            "imgUrl": "/images/todd-trapani.jpg",
+            "author": "Todd Trapani",
+            "link": "https://unsplash.com/photos/hlhpAWdFGTk",
+            "title": "Card #5",
+            "desc": "",
+            "deal": true,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 6,
+        "item" : {
+            "imgUrl": "/images/mohamed-hassan.jpg",
+            "author": "Mohamed Hassan",
+            "link": "https://pixabay.com/illustrations/snowing-christmas-santa-claus-cute-2974540/",
+            "title": "Card #6",
+            "desc": "",
+            "deal": false,
+            "popular": true,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 7,
+        "item" : {
+            "imgUrl": "/images/kevin-sanderson.png",
+            "author": "Kevin Sanderson",
+            "link": "https://pixabay.com/vectors/card-cartoon-christmas-4623621/",
+            "title": "Card #7",
+            "desc": "",
+            "deal": true,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 8,
+        "item" : {
+            "imgUrl": "/images/andrew-te.jpg",
+            "author": "Andrew Te",
+            "link": "https://unsplash.com/photos/xUrw6CyuR7o",
+            "title": "Card #8",
+            "desc": "",
+            "deal": false,
+            "popular": true,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 9,
+        "item" : {
+            "imgUrl": "/images/cameron-stewart.jpg",
+            "author": "Cameron Stewart",
+            "link": "https://unsplash.com/photos/ocq7NBmpOYU",
+            "title": "Card #9",
+            "desc": "",
+            "deal": false,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 10,
+        "item" : {
+            "imgUrl": "/images/krakenimages.jpg",
+            "author": "krakenimages",
+            "link": "https://unsplash.com/photos/liT5AlTmC8I",
+            "title": "Card #10",
+            "desc": "This is a super amazing christmas card that your friends and family will love! ",
+            "deal": false,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 11,
+        "item" : {
+            "imgUrl": "/images/jamie-street.jpg",
+            "author": "Jamie Street",
+            "link": "https://unsplash.com/photos/G6aNLWPUlcY",
+            "title": "Card #11",
+            "desc": "This is a super amazing christmas card that your friends and family will love!",
+            "deal": false,
+            "popular": false,
+            "price": 1.99
+        }    
+    },
+    {
+        "id": 12,
+        "item" : {
+            "imgUrl": "/images/aaron-wilson.jpg",
+            "author": "Aaron Wilson",
+            "link": "https://unsplash.com/photos/qIHtrP2V3C8",
+            "title": "Card #12",
+            "desc": "",
+            "deal": false,
+            "popular": false,
+            "price": 1.99
+        
+        }    
+    }        
+]

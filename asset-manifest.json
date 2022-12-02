@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/christmas-cards-2022/static/css/main.f5e97404.css",
+    "main.js": "/christmas-cards-2022/static/js/main.562f6454.js",
+    "static/js/787.ec000f88.chunk.js": "/christmas-cards-2022/static/js/787.ec000f88.chunk.js",
+    "index.html": "/christmas-cards-2022/index.html",
+    "main.f5e97404.css.map": "/christmas-cards-2022/static/css/main.f5e97404.css.map",
+    "main.562f6454.js.map": "/christmas-cards-2022/static/js/main.562f6454.js.map",
+    "787.ec000f88.chunk.js.map": "/christmas-cards-2022/static/js/787.ec000f88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5e97404.css",
+    "static/js/main.562f6454.js"
+  ]
+}
